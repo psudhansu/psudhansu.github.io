@@ -39,18 +39,18 @@ window.onscroll = function () {
   }
 };
 
-GitHubCalendar(".calendar", "abhirupbakshi", {
+GitHubCalendar(".calendar", "psudhansu", {
   responsive: true,
   global_stats: true,
   tooltips: true,
 });
 
 document.getElementById("resume-button-1").onclick = () => {
-  window.open("https://drive.google.com/file/d/1rqEOeSDcGGR5x_lKBTYMkL8cfnEShobQ/view?usp=share_link")
+  window.open("https://drive.google.com/file/d/1bv-o4Ydl7vk2jX9YujdAwLY3oYk6L6Pk/view?usp=share_link")
 }
 
 document.getElementById("resume-button-2").onclick = () => {
-  window.open("https://drive.google.com/file/d/1rqEOeSDcGGR5x_lKBTYMkL8cfnEShobQ/view?usp=share_link")
+  window.open("https://drive.google.com/file/d/1bv-o4Ydl7vk2jX9YujdAwLY3oYk6L6Pk/view?usp=share_link")
 }
 
 
