@@ -22,7 +22,7 @@ let resume2 = document.getElementById("resume-button-2").addEventListener("click
 
 function NewTab() {
   window.open(
-    "https://drive.google.com/file/d/19fyX7JM-U9g_JordweVIhkqVx1w7H2RU/view?usp=sharing",
+    "https://drive.google.com/file/d/1bv-o4Ydl7vk2jX9YujdAwLY3oYk6L6Pk/view?usp=sharing",
     "_blank"
   );
 }
@@ -76,7 +76,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
 // *===============================  typed js==================================
 
 const typed = new Typed('.multiple-text', {
-  strings: ['Full Stack Web Developer', 'Backend Developer', 'Frontend Developer'],
+  strings: ['Backend Developer'],
   typeSpeed: 100,
   backSpeed: 100,
   backdelay: 1000,

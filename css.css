@@ -224,14 +224,25 @@ span {
     box-shadow: none;
   }
   
-/*  */
 .hero-bg { display: none; } 
-/* .home-image { position: relative; } */
 
-/* .home-image .home-img {
-  max-width: max-content;
-  margin-inline: auto;
-} */
+.home-overlay {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .home-overlay {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media, #resume-button-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 .home .shape {
@@ -580,13 +591,27 @@ span {
 #github-stats {
   margin-bottom: 70px;
 }
+
 #resume-button-2 {
   list-style: none;
 }
 
-#github-stats {
+.stats {
+  display: flex;
   justify-content: center;
 }
+
+.stats a {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stats img {
+  margin-top: 2em;
+}
+
 /* ----------------------------------------------------------------- */
 
 /*-----------------------------------*\
@@ -766,3 +791,4 @@ margin: 20px;
     .shape-2 { left: 60px; }
 
   }
+
