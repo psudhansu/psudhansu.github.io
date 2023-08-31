@@ -274,9 +274,13 @@ span {
   /*-----------------------------------*\
     #ABOUT SECTION
   \*-----------------------------------*/
-   
+  #about{
+    min-height: 0vh;
+    
+  }
   #about {
     text-align: center;
+    
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -306,7 +310,9 @@ span {
     #SKILSS 
   \*-----------------------------------*/
  
-   
+  #skills{
+    min-height: 10vh;
+  }
   
   #skills h2 {
     margin-bottom: 5rem;
@@ -385,7 +391,7 @@ span {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 300%;
     background: linear-gradient(rgba(0, 0, 0, .1), var(--bg-prussian-blue) );
     display: flex;
     justify-content: center;
@@ -404,6 +410,7 @@ span {
     font-size: 3rem;
   }
   .project-tech-stack {
+    
     font-size: 2rem;
   }
   .project-layer p {
@@ -425,6 +432,73 @@ span {
   }
   .projectlinks {
     display: flex;
+  }
+
+
+  /* ---new add---- */
+  .project-card {
+    /* border: 5px solid #0078ff; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid gray;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+    border-radius: 1rem;
+    align-items: space-around;
+    gap: 30px;
+  }
+  
+  
+  .project-btn-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-btn-div > a{
+    width:90px;
+    height:30px;
+    padding-left: 7px;
+    font-size: 13px;
+  }
+  
+  .btn2 {
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0078ff;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .project-details {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    /* height: 50%; */
+  }
+  p{
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .project-tech-stack {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 15px;
+    /* margin-bottom: 30px; */
+    /* border: 1px solid white; */
+  }
+  
+  .project-tech-stack>div {
+    display: flex;
+  }
+  
+  .mongoClass {
+    margin-left: -10px;
   }
    
   /*-----------------------------------*\
