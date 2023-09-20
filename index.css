@@ -5,7 +5,7 @@
     --header-height : 3rem;
     /* HERE YOU CAN APPLY MULTIPLE COLOURS at hue-colour */
     --hue-color: 250; 
-    --first-color:hsl(var(--hue-color), 39%, 69%);
+    --first-color:hsl(var(--hue-color), 59%, 60%);
     --first-color-second : hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -320,6 +320,12 @@ img{
     /* adding new  */
     margin-top: 15px;
     /*  end of new*/
+}
+#resume-button-2{
+    padding: 0%;
+}
+#resume-link-2{
+    margin-top: 0%;
 }
 
 .button:hover{
